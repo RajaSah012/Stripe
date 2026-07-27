@@ -85,7 +85,7 @@ function Hero() {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-[850px] pt-16">
           <p className="text-[#425466] font-semibold mb-8 flex items-center gap-2 text-[15px]">
-            Global volume processed on Zenflow: <span className="text-[#8792a2] font-normal font-mono">1.68783820%</span>
+            Global GDP running on Stripe: <span className="text-[#8792a2] font-normal font-mono">1.68783820%</span>
           </p>
           
           <h1 className="text-[4rem] sm:text-[4.5rem] lg:text-[5.5rem] font-semibold tracking-[-0.04em] mb-6 leading-[1.05] text-[#0a2540]">
@@ -152,7 +152,7 @@ function Solutions() {
                     <div className="space-y-3 flex-1">
                       <div className="space-y-1">
                          <div className="text-[10px] text-slate-500 font-medium">Email</div>
-                         <div className="w-full border border-slate-200 rounded-md text-[11px] text-slate-900 p-2 font-medium shadow-sm bg-white">jane.diaz@zenflow.com</div>
+                         <div className="w-full border border-slate-200 rounded-md text-[11px] text-slate-900 p-2 font-medium shadow-sm bg-white">jane.diaz@stripe.com</div>
                       </div>
                       <div className="flex gap-2">
                          <button className="flex-1 h-9 bg-[#00d632] rounded-md flex items-center justify-center text-white text-[12px] font-bold shadow-sm hover:brightness-105 transition-all gap-1.5">
@@ -646,7 +646,7 @@ function AISection() {
                 {/* Silhouette or Logo */}
                 <div className="absolute bottom-8 right-12">
                    <div className="text-2xl font-bold tracking-tighter opacity-80 flex items-center gap-1">
-                      zenflow <span className="font-normal">sessions</span>
+                      stripe <span className="font-normal">sessions</span>
                    </div>
                 </div>
              </div>
@@ -662,11 +662,11 @@ function Footer() {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-16">
           <div className="col-span-2 lg:col-span-1">
-            <a href="#" className="text-2xl font-bold tracking-tighter text-[#0a2540] mb-6 block">zenflow</a>
+            <a href="#" className="text-2xl font-bold tracking-tighter text-[#0a2540] mb-6 block">stripe</a>
             <div className="flex items-center gap-2 text-slate-500 text-sm mb-4">
               India (English)
             </div>
-            <p className="text-sm text-slate-500">© 2026 Zenflow, Inc.</p>
+            <p className="text-sm text-slate-500">© 2026 Stripe, Inc.</p>
           </div>
           
           <div>
