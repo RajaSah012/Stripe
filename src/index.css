@@ -73,4 +73,47 @@
     66% { transform: translate(-15px, -45px); }
     100% { transform: translate(-25px, 15px); }
   }
+
+  .issuing-card-gradient {
+    background: linear-gradient(
+      155deg,
+      #ffffff 0%,
+      #ffdbea 15%,
+      #df8bf5 30%,
+      #8a3cff 45%,
+      #ff804a 65%,
+      #fff0e5 85%,
+      #ffffff 100%
+    );
+    background-size: 200% 300%;
+    animation: flowUp 6s ease-in-out infinite alternate;
+  }
+  
+  @keyframes flowUp {
+    0% { background-position: 50% 100%; }
+    100% { background-position: 50% 0%; }
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .animate-spin-slow {
+    animation: spin 30s linear infinite;
+  }
+  .animate-spin-reverse-slow {
+    animation: spin-reverse 45s linear infinite;
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  @keyframes spin-reverse {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }
 }

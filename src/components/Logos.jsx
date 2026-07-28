@@ -169,11 +169,14 @@ const LogoCarousel = () => {
 
   return (
     <div className="py-10 border-y border-slate-100 overflow-hidden relative">
+      {/* ========================================================= */}
+      {/* SECTION: CUSTOMER LOGOS (Scrolling Marquee)               */}
+      {/* ========================================================= */}
       <div className="max-w-[1400px] mx-auto relative">
         <div className="flex overflow-hidden group">
           <div className="flex animate-marquee gap-12 whitespace-nowrap min-w-max items-center px-4 md:px-12 text-[#0a2540]">
             {[...logos, ...logos].map((logo, index) => (
-              <div key={`logo-${index}`} className="w-24 md:w-32 opacity-70 hover:opacity-100 transition-opacity duration-300 flex-shrink-0">
+              <div key={`logo-${index}`} className="w-24 md:w-32 opacity-70 hover:opacity-100 transition-opacity duration-300 flex-shrink-0 flex items-center justify-center [&>svg]:w-full [&>svg]:h-auto">
                 {logo.svg}
               </div>
             ))}
